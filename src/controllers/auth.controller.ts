@@ -74,7 +74,7 @@ export const loginController = asyncHandler(
       const access_token = signJwtToken({userId: user._id});
 
       return res.status(HTTPSTATUS.OK).json({
-        message: "Logged in Successfully",
+        //message: "Logged in Successfully",
         access_token,
         user
       })
