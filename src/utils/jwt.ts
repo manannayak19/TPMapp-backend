@@ -34,4 +34,4 @@ export const signJwtToken = (
         ...opts
     });
 };
-console.log(accessTokenSignOptions);
+//console.log(accessTokenSignOptions);
