@@ -3,7 +3,7 @@ import { Router } from "express";
 import passport from "passport";
 import { config } from "../config/app.config";
 import {
-  googleLoginCallBack,
+  googleLoginCallback,
   loginController,
   logOutController,
   registerUserController,
@@ -29,7 +29,7 @@ authRoutes.get(
   passport.authenticate("google", {
     failureRedirect: failedUrl,
   }),
-  googleLoginCallBack
+  googleLoginCallback
 );
 
 export default authRoutes;
