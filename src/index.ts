@@ -57,7 +57,7 @@ app.get(
     //   ErrorCodeEnum.AUTH_INVALID_TOKEN
     // );
     return res.status(HTTPSTATUS.OK).json({
-      message: "Hello Subscribe to the channel & share",
+      message: "This thing is working finally",
     });
   })
 );
